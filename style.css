@@ -1,0 +1,230 @@
+
+
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: white;
+    
+}
+
+.divPagina1 {
+    background-image: url('./imagens/pexels-aleksandar-pasaric-1694000.jpg');
+    background-size: cover;
+    height: 660px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.822);
+    height: 250px;
+}
+
+header > h2 {
+    display: inline-block;
+    padding: 30px 0px 30px 100px;
+    color: white;
+    font-size: 1.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ b {
+    color: #f9004d;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: inline-block;
+}
+
+a{
+    padding: 0px 20px;
+    color: white; 
+    font-weight: bolder;
+}
+
+a:hover {
+    color: #f9004d;
+}
+
+.navSub {
+    color: white;
+    position: absolute;
+    left: 85%;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: #f9004d;
+}
+.navSub:hover {
+   transform: scale(1.2);
+    color: white;
+    transition: .6s;
+}
+
+.divHeader {
+    margin-top: -50px;
+    text-align: center;
+}
+
+.divIntroducao {
+    margin-left: 90px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.877), transparent);
+    
+}
+
+.divIntroducao > p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.87);
+}
+.divIntroducao > h1 {
+    margin-bottom: 10px;
+    font-size: 3.6em;
+}
+.divIntroducao > h2 {
+    font-size: 1em;
+}
+.divIntroducao > input {
+    margin-top: 25px;
+    padding: 5px;
+    width: 295px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+.divIntroducao > button {
+    border: none;
+    margin-left: -91px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 1px 1px 15px black;
+}
+.divIntroducao > img {
+    position: absolute;
+    left:65%;
+    top: 35%;
+    width: 20%;
+    border-radius: 50%;
+    
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.section1 {
+    height: 550px;
+    background-color:rgb(10, 10, 10);
+}
+
+
+
+.section1 > .div1Section1{
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 120%;
+    color: white;
+    text-align: justify;
+}
+.div1Section1 > h1{
+    font-size: 3.6em;
+    margin-bottom: 10px;
+}
+.div1Section1 > p {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.87);
+}
+.div1Section1 > button {
+    margin-top: 40px;
+    color: white;
+    padding: 10px ;
+    border-radius: 50px;
+    background-color: #f9004d;
+}
+.div1Section1 > button:hover {
+    border-color: #f9004d;
+    color: #f9004d;
+    background-color: transparent;
+
+    transition: .5s;
+}
+
+.section2 {
+    padding: 150px 250px;
+    background-color:black;
+    height: 550px;
+}
+
+.section2 > h1 {
+    text-align: center;
+    font-size: 3.2em;
+    color: white;
+}
+
+.divSection2{
+    background-color: white;
+    height: 150px;
+    width: 350px;
+
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+        box-shadow: 1px 0px 30px 0px rgba(255, 255, 255, 0.836);
+    }
+    50%{
+        transform: translateY(-19px);
+        box-shadow: 1px 0px 25px 0px rgba(255, 255, 255, 0.384);
+        
+    }
+    100%{
+        transform: translateY(0px);
+        box-shadow: 1px 0px 30px 0px rgba(255, 255, 255, 0.829);
+    }
+}
+.section1 > img {
+    position: absolute;
+    left: 15%;
+    top: 110%;
+    width: 10%;
+    border-radius: 50%;
+    
+    transform: translateY(0px);
+    animation: linguagens 5s ease-in-out infinite;
+}
+
+
+
+@keyframes linguagens {
+    0% {
+        transform:rotateZ('angle')(100deg);
+        
+        
+    }
+    50%{
+        transform: translateY(30px);
+        
+        
+        
+    }
+    100%{
+        transform: translateY(0px);
+        
+    }
+}
+
