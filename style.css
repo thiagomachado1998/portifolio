@@ -197,9 +197,9 @@ a:hover {
         box-shadow: 1px 0px 30px 0px rgba(255, 255, 255, 0.829);
     }
 }
-.section1 > img {
+ .javaLogo {
     position: absolute;
-    left: 15%;
+    left: 20%;
     top: 110%;
     width: 10%;
     border-radius: 50%;
@@ -208,17 +208,38 @@ a:hover {
     animation: linguagens 5s ease-in-out infinite;
 }
 
+.cssLogo{
+    position: absolute;
+    left: 20%;
+    top: 110%;
+    width: 10%;
+    border-radius: 50%;
+    animation: linguagenscss 5s ease-in-out infinite;
+    
+    transform: translateY(0px);
+}
+
+.htmlLogo {
+    position: absolute;
+    left: 20%;
+    top: 110%;
+    width: 10%;
+    border-radius: 50%;
+    animation: linguagenshtml 10s ease-in-out infinite;
+    transform: translateY(0px);
+}
 
 
 @keyframes linguagens {
     0% {
-        transform:rotateZ('angle')(100deg);
+        transform:translateY(0px);
         
         
     }
     50%{
-        transform: translateY(30px);
+        transform: translateY(130px);
         
+        box-shadow: 1px 0px 30px 0px yellow;
         
         
     }
@@ -228,3 +249,56 @@ a:hover {
     }
 }
 
+@keyframes linguagenscss {
+    0% {
+        transform:translateY(100px);
+       
+        
+        
+    }
+    50%{
+        transform: translateY(0px);
+        box-shadow: 1px 0px 30px  rgb(0, 132, 255);
+        
+        
+        
+        
+    }
+    100%{
+        transform: translateY(100px);
+        
+        
+        
+    }
+}
+
+@keyframes linguagenshtml {
+    0% {
+        transform:translateX(-90px);
+        box-shadow: 1px 0px 30px rgba(255, 68, 0, 0.349);
+    }
+    
+        
+
+    25%{
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: translateX(90px);
+        box-shadow: 1px 0px 30px rgba(255, 68, 0, 0.445);
+    
+    }
+        
+
+
+    75%{
+        transform: translateX(0px);
+    }
+
+    100%{
+        transform:translateX(-90px);
+        box-shadow: 1px 0px 30px rgba(255, 68, 0, 0.315);
+        
+    }
+}
