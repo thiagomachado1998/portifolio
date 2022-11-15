@@ -33,7 +33,7 @@ header > h2 {
 }
 
  b {
-    color: #f9004d;
+    color:#f9004d;;
 }
 
 a {
@@ -239,7 +239,7 @@ a:hover {
     50%{
         transform: translateY(130px);
         
-        box-shadow: 1px 0px 30px 0px yellow;
+        
         
         
     }
@@ -258,7 +258,7 @@ a:hover {
     }
     50%{
         transform: translateY(0px);
-        box-shadow: 1px 0px 30px  rgb(0, 132, 255);
+        
         
         
         
@@ -275,7 +275,7 @@ a:hover {
 @keyframes linguagenshtml {
     0% {
         transform:translateX(-90px);
-        box-shadow: 1px 0px 30px rgba(255, 68, 0, 0.349);
+        
     }
     
         
@@ -286,7 +286,7 @@ a:hover {
 
     50%{
         transform: translateX(90px);
-        box-shadow: 1px 0px 30px rgba(255, 68, 0, 0.445);
+       
     
     }
         
@@ -298,7 +298,7 @@ a:hover {
 
     100%{
         transform:translateX(-90px);
-        box-shadow: 1px 0px 30px rgba(255, 68, 0, 0.315);
+       
         
     }
 }
