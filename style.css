@@ -1,7 +1,6 @@
-
-
 @charset "utf-8";
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +9,7 @@
 
 body {
     background-color: white;
-    
+
 }
 
 .divPagina1 {
@@ -24,7 +23,7 @@ header {
     height: 250px;
 }
 
-header > h2 {
+header>h2 {
     display: inline-block;
     padding: 30px 0px 30px 100px;
     color: white;
@@ -32,8 +31,9 @@ header > h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
- b {
-    color:#f9004d;;
+b {
+    color: #f9004d;
+    ;
 }
 
 a {
@@ -44,9 +44,9 @@ nav {
     display: inline-block;
 }
 
-a{
+a {
     padding: 0px 20px;
-    color: white; 
+    color: white;
     font-weight: bolder;
 }
 
@@ -62,8 +62,9 @@ a:hover {
     border-radius: 20px;
     background-color: #f9004d;
 }
+
 .navSub:hover {
-   transform: scale(1.2);
+    transform: scale(1.2);
     color: white;
     transition: .6s;
 }
@@ -77,23 +78,26 @@ a:hover {
     margin-left: 90px;
     color: white;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.877), transparent);
-    
+
 }
 
-.divIntroducao > p {
+.divIntroducao>p {
     margin-bottom: 10px;
     font-size: 1.1em;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.87);
 }
-.divIntroducao > h1 {
+
+.divIntroducao>h1 {
     margin-bottom: 10px;
     font-size: 3.6em;
 }
-.divIntroducao > h2 {
+
+.divIntroducao>h2 {
     font-size: 1em;
 }
-.divIntroducao > input {
+
+.divIntroducao>input {
     margin-top: 25px;
     padding: 5px;
     width: 295px;
@@ -102,7 +106,8 @@ a:hover {
     border: none;
     background-color: rgba(255, 255, 255, 0.842);
 }
-.divIntroducao > button {
+
+.divIntroducao>button {
     border: none;
     margin-left: -91px;
     padding: 7px 15px;
@@ -111,25 +116,26 @@ a:hover {
     color: white;
     box-shadow: 1px 1px 15px black;
 }
-.divIntroducao > img {
+
+.divIntroducao>img {
     position: absolute;
-    left:65%;
+    left: 65%;
     top: 35%;
     width: 20%;
     border-radius: 50%;
-    
+
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
 }
 
 .section1 {
     height: 550px;
-    background-color:rgb(10, 10, 10);
+    background-color: rgb(10, 10, 10);
 }
 
 
 
-.section1 > .div1Section1{
+.section1>.div1Section1 {
     width: 350px;
     position: absolute;
     left: 50%;
@@ -137,22 +143,26 @@ a:hover {
     color: white;
     text-align: justify;
 }
-.div1Section1 > h1{
+
+.div1Section1>h1 {
     font-size: 3.6em;
     margin-bottom: 10px;
 }
-.div1Section1 > p {
+
+.div1Section1>p {
     margin-top: 20px;
     color: rgba(255, 255, 255, 0.87);
 }
-.div1Section1 > button {
+
+.div1Section1>button {
     margin-top: 40px;
     color: white;
-    padding: 10px ;
+    padding: 10px;
     border-radius: 50px;
     background-color: #f9004d;
 }
-.div1Section1 > button:hover {
+
+.div1Section1>button:hover {
     border-color: #f9004d;
     color: #f9004d;
     background-color: transparent;
@@ -161,61 +171,51 @@ a:hover {
 }
 
 .section2 {
-    padding: 150px 250px;
-    background-color:black;
-    height: 550px;
+    background-color: rgba(0, 0, 0, 0.932);
 }
 
-.section2 > h1 {
-    text-align: center;
-    font-size: 3.2em;
-    color: white;
-}
 
-.divSection2{
-    background-color: white;
-    height: 150px;
-    width: 350px;
 
-    transform: translateY(0px);
-    animation: float 5s ease-in-out infinite;
 
-}
+
 
 @keyframes float {
     0% {
         transform: translateY(0px);
         box-shadow: 1px 0px 30px 0px rgba(255, 255, 255, 0.836);
     }
-    50%{
+
+    50% {
         transform: translateY(-19px);
         box-shadow: 1px 0px 25px 0px rgba(255, 255, 255, 0.384);
-        
+
     }
-    100%{
+
+    100% {
         transform: translateY(0px);
         box-shadow: 1px 0px 30px 0px rgba(255, 255, 255, 0.829);
     }
 }
- .javaLogo {
+
+.javaLogo {
     position: absolute;
     left: 20%;
     top: 110%;
     width: 10%;
     border-radius: 50%;
-    
+
     transform: translateY(0px);
     animation: linguagens 5s ease-in-out infinite;
 }
 
-.cssLogo{
+.cssLogo {
     position: absolute;
     left: 20%;
     top: 110%;
     width: 10%;
     border-radius: 50%;
     animation: linguagenscss 5s ease-in-out infinite;
-    
+
     transform: translateY(0px);
 }
 
@@ -232,73 +232,168 @@ a:hover {
 
 @keyframes linguagens {
     0% {
-        transform:translateY(0px);
-        
-        
-    }
-    50%{
-        transform: translateY(130px);
-        
-        
-        
-        
-    }
-    100%{
         transform: translateY(0px);
-        
+
+
+    }
+
+    50% {
+        transform: translateY(130px);
+
+
+
+
+    }
+
+    100% {
+        transform: translateY(0px);
+
     }
 }
 
 @keyframes linguagenscss {
     0% {
-        transform:translateY(100px);
-       
-        
-        
-    }
-    50%{
-        transform: translateY(0px);
-        
-        
-        
-        
-        
-    }
-    100%{
         transform: translateY(100px);
-        
-        
-        
+
+
+
+    }
+
+    50% {
+        transform: translateY(0px);
+
+
+
+
+
+    }
+
+    100% {
+        transform: translateY(100px);
+
+
+
     }
 }
 
 @keyframes linguagenshtml {
     0% {
-        transform:translateX(-90px);
-        
-    }
-    
-        
+        transform: translateX(-90px);
 
-    25%{
+    }
+
+
+
+    25% {
         transform: translateX(0px);
     }
 
-    50%{
+    50% {
         transform: translateX(90px);
-       
-    
+
+
     }
-        
 
 
-    75%{
+
+    75% {
         transform: translateX(0px);
     }
 
-    100%{
-        transform:translateX(-90px);
-       
-        
+    100% {
+        transform: translateX(-90px);
+
+
     }
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    gap: 40px 60px;
+}
+
+.drop {
+    display: flex;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    box-shadow: inset 20px 20px 20px rgba(255, 0, 0, 0.712),
+        25px 35px 20px rgba(255, 0, 0, 0),
+        25px 30px 30px rgba(255, 0, 0, 0),
+        inset -20px -20px 25px rgba(255, 0, 0, 0.651);
+    transition: .5 ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop:nth-child(1) {
+    border-radius: 57% 43% 43% 57% / 30% 43% 57% 70%;
+}
+
+.drop:nth-child(2) {
+    border-radius: 73% 27% 59% 41%/ 57% 59% 41% 43%;
+}
+
+.drop:nth-child(3) {
+    border-radius: 65% 35% 31% 69%/57% 59% 41% 43%;
+}
+
+.drop:hover {
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 15px;
+}
+
+.content h2 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: #eff0f4;
+    border-radius: 50%;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.185),
+        inset -2px -5px 10px rgba(255, 255, 255, 1),
+        15px 15px 10px rgba(0, 0, 0, 0.05),
+        15px 10px 15px rgba(0, 0, 0, 0.025);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: var(--clr);
+
+}
+
+.content a {
+    text-decoration: none;
+    background: var(--clr);
+    position: relative;
+    padding: 10px;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 900;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    opacity: .75;
+    transition: .5s;
+}
+
+.content a:hover {
+    opacity: 1;
+}
+
+.content p {
+    color: white;
 }
